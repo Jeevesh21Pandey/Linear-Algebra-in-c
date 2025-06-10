@@ -1,0 +1,38 @@
+Format specifiers - 
+%d or %i: for signed integers (int)
+
+%u: for unsigned integers (unsigned int)
+
+%f: for floating-point numbers (float)
+
+%lf: for double-precision floating-point numbers (double)
+
+%c: for single characters (char)
+
+%s: for strings (array of characters)
+
+%x or %X: for hexadecimal integers
+
+%o: for octal integers
+
+%p: for pointers
+
+%ld or %li: for long integers (long int)
+
+%lu: for unsigned long integers (unsigned long int)
+
+%lld or %lli: for long long integers (long long int)
+
+%llu: for unsigned long long integers (unsigned long long int)
+
+%e or %E: for scientific notation of floating-point numbers
+
+%g or %G: for the shortest representation of either %e or %f
+
+%a or %A: for hexadecimal floating-point numbers (C99)
+
+%n: for storing the number of characters written so far
+
+%%: for printing a percent sign
+
+By default printf statement will print only string unless specified
